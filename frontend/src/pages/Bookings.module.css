@@ -1,0 +1,32 @@
+.bookingsList{
+    margin: 2rem auto;
+    width: 40rem;
+    max-width: 90%;
+    list-style: none;
+    padding: 0;
+}
+
+.bookingsListItem {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid gold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bookingsListItem h1 {
+    margin:0;
+    font-size: 1.5rem;
+    color:blueviolet;
+}
+
+.bookingsListItem h2 {
+    margin: 0;
+    font-size: 1rem;
+    color: gray;
+}
+
+.bookingsListItem p {
+    margin: 0;
+}

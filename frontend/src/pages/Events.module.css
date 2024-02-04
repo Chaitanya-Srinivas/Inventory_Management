@@ -1,0 +1,81 @@
+.eventsControl {
+    text-align: center;
+    border: 1px solid blueviolet;
+    padding: 3rem;
+    margin: 2rem auto;
+    width: 30rem;
+    max-width: 80%;
+}
+
+
+.eventForm {
+    width: 25rem;
+    max-width: 80%;
+    margin: 2rem auto;
+}
+
+.eformControl label,
+.eformControl input,
+.eformControl textarea {
+    width: 100%;
+    display: block;
+}
+
+.eformControl label {
+    margin-bottom: 0.5rem;
+}
+
+.eformControl {
+    margin-bottom: 1rem;
+}
+
+.eformActions button {
+    background: rgb(0, 153, 255);
+    border: 1px solid brown;
+    font: inherit;
+    border-radius: 5px;
+    padding: 0.2rem 1rem;
+    margin-right: 1rem;
+    box-shadow: 1px 1px 5px forestgreen;
+    color: white;
+    cursor: pointer;
+}
+
+.eformActions button:hover,
+.eformActions button:active{
+    background: fuchsia;
+    border-color: aquamarine;
+}
+
+.eventsList{
+    margin: 2rem auto;
+    width: 40rem;
+    max-width: 90%;
+    list-style: none;
+    padding: 0;
+}
+
+.eventsListItem {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid gold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eventsListItem h1 {
+    margin:0;
+    font-size: 1.5rem;
+    color:blueviolet;
+}
+
+.eventsListItem h2 {
+    margin: 0;
+    font-size: 1rem;
+    color: gray;
+}
+
+.eventsListItem p {
+    margin: 0;
+}

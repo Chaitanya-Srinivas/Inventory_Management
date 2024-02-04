@@ -1,0 +1,37 @@
+.authForm {
+    width: 25rem;
+    max-width: 80%;
+    margin: 2rem auto;
+}
+
+.formControl label,
+.formControl input {
+    width: 100%;
+    display: block;
+}
+
+.formControl label {
+    margin-bottom: 0.5rem;
+}
+
+.formControl {
+    margin-bottom: 1rem;
+}
+
+.formActions button {
+    background: rgb(0, 153, 255);
+    border: 1px solid brown;
+    font: inherit;
+    border-radius: 5px;
+    padding: 0.2rem 1rem;
+    margin-right: 1rem;
+    box-shadow: 1px 1px 5px forestgreen;
+    color: white;
+    cursor: pointer;
+}
+
+.formActions button:hover,
+.formActions button:active{
+    background: fuchsia;
+    border-color: aquamarine;
+}
