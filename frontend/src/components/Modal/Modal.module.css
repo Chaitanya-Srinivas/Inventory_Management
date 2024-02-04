@@ -1,0 +1,29 @@
+.modal {
+    width: 50rem;
+    max-width: 90%;
+    background: white;
+    box-shadow: 0 2px 8px black;
+    top:30vh;
+    position: absolute;
+    z-index: 2;
+}
+
+.modalHeader{
+    padding: 1rem;
+    background: purple;
+    color:white;
+}
+
+.modalHeader h1 {
+    margin: 0;
+    font-size: 1.25rem;;
+}
+
+.modalContent{
+    padding: 1rem;
+}
+
+.modalActions {
+    display: flex;
+    justify-content: flex-end;
+}
