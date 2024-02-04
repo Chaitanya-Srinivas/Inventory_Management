@@ -1,0 +1,42 @@
+.mainNavigation{
+position: fixed;
+left: 0;
+top:0;
+width:100%;
+height: 3.5rem;
+background: blue;
+padding: 0 1rem;
+display: flex;
+align-items: center;
+}
+
+.mainNavigationLogo h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.mainNavigationItems {
+  margin-left: 1.5rem;
+}
+
+.mainNavigationItems ul {
+  display: flex;
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+.mainNavigationItems li {
+  margin: 0 1rem;
+}
+
+.mainNavigationItems a {
+  text-decoration: none;
+  color: black;
+}
+
+.mainNavigationItems a:hover, 
+.mainNavigationItems a:active,
+.mainNavigationItems a.active {
+  color:yellow;
+}
